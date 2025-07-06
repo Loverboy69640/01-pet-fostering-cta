@@ -1,0 +1,114 @@
+/* Simple site header style */
+.site-header {
+  background-color: #3182ce; /* Blue from palette */
+  color: #fff;
+  text-align: center;
+  padding: 18px 0 10px 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 28px;
+  box-shadow: 0 2px 8px rgba(49, 130, 206, 0.08);
+}
+
+.site-header h2 {
+  font-size: 2em;
+  margin: 0;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+/* Style for the Call-to-Action banner */
+.cta-banner {
+  /* Tall, visually striking banner */
+  min-height: 400px;
+  background: linear-gradient(rgba(49,130,206,0.45), rgba(79,209,197,0.45)), url('img/cta-bg.jpg') center/cover no-repeat; /* Teal to blue gradient */
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Arial, sans-serif; /* Modern, easy-to-read font */
+  display: block;
+  border-radius: 12px;
+  margin: 40px auto;
+  max-width: 700px;
+  box-shadow: 0 4px 16px rgba(49, 130, 206, 0.15);
+  position: relative;
+}
+
+.cta-banner h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.cta-description {
+  font-size: 1.2em;
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+
+.cta-button {
+  /* Eye-catching button style */
+  background-color: #2b6cb0; /* Deep blue */
+  color: #fff;
+  padding: 16px 36px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.cta-button:hover {
+  background-color: #38b2ac; /* Teal on hover */
+  color: #fff;
+}
+
+/* Keep text above the overlay and image */
+.cta-banner > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Info section below the banner */
+.info-section {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #f7fafc; /* Very light blue for contrast */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(49,130,206,0.08);
+  display: table; /* Use table display for two columns (beginner-friendly) */
+  width: 100%;
+  padding: 24px 0;
+}
+
+.info-image {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  padding: 0 16px;
+  max-width: 320px; /* Increased max width for a larger image */
+  border-radius: 15px;
+}
+
+.info-text {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  padding: 0 16px;
+  color: #234e52;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.info-text h3 {
+  color: #3182ce;
+  margin-top: 0;
+}
+
+.info-text p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
